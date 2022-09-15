@@ -36,9 +36,6 @@ public class Main {
 	public static void main(String[] args) throws CustomizedException {
 		
 		//Printar los resultados
-		
-		
-		
 		NumeroParImpar.comprobarNumero();
 
 	}
