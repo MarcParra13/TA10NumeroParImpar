@@ -15,7 +15,6 @@ class NumeroParImpar {
 	}
 	
 	//Método para comprobar si el número aleatorio es par o impar y lanzar la excepción
-	@SuppressWarnings("finally")
 	public static void comprobarNumero() throws CustomizedException {
 		
 		try {
