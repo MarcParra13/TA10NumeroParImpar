@@ -21,13 +21,14 @@ class NumeroParImpar {
 		try {
 			System.out.println("Generando número aleatorio...");
 			System.out.println("El número aleatorio es: " + NumeroParImpar.numeroAleatorio);
-		} finally {
+			throw new CustomizedException("Saltamos a la excepción");
+		} catch (CustomizedException ce){
 			if(numeroAleatorio % 2 == 0) {
-				throw new CustomizedException("Es par");
+				System.out.println("Es par");
 			} else {
-				throw new CustomizedException("Es impar");
+				System.out.println("Es impar");
 			}
-		}
+		} 
 	}
 }
 
